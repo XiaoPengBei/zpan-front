@@ -27,7 +27,7 @@
       </el-submenu>
     </el-menu>
 
-    <div v-if="logined" style="position: absolute; right: 20px">
+    <div v-if="logined" style="position: absolute; right: 20px; z-index: 99">
       <!-- 音乐播放器 -->
       <el-popover
         v-if="alistVisible"
